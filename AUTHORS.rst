@@ -1,7 +1,7 @@
 Authors
 -------
 
-* Eric (New contributor)
-* Anthony 
+* Khalil Mayyasi
+* Usman Ahsani
 
 
