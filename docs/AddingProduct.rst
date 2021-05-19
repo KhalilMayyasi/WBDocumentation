@@ -105,4 +105,29 @@ Omnichannel Sourcing:-
    * Inventory Library (Online/Offline)
 
 
+Bulk Import & Rules (English and Arabic)
+-------------------------------------------------
 
+Merchants can also add products via bulk import by accessing:
+   Settings > Integrations & Data Sharing > Data Import > Google Spreadsheet
+
+You can import items without variations, items with variations or both of them at the same time.
+
+Bulk Import Fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* **Product name:en** (product name in English)
+* **Product name:ar_SA** (product name in Arabic)
+* **Product description:en** (product description in English)
+* **Product description:ar_SA** (product description in Arabic)
+* **Product image link** (link for the product image .jpg) → check formats 
+* **Product category:en** (product category name in English)
+* **Product category:ar_SA** (product category name in Arabic)
+* **Variation name:en** (variation name in English)
+* **Variation name:ar_SA** (variation name in Arabic)
+* **Barcode** (12-digit code)
+* **Cost per unit** (purchasing cost)
+* **Price**
+* **Discount price**
+* **Tax**
+* **Quantity**
