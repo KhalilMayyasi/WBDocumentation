@@ -10,8 +10,8 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   Authors
-   Introduction
+   Authors*
+   Introduction*
    *
 
 
