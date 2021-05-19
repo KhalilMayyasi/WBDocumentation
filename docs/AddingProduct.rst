@@ -53,5 +53,5 @@ Once a product (or variation of a product) has been created, a barcode is genera
 If no variation has been added, the product is seen as an image in the ‘Inventory Library’ as such:
 
 .. image:: ./productToInventory2.png
-  :width: 400
+  :width: 700
   :alt: Alternative text
