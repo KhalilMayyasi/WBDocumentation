@@ -143,4 +143,37 @@ Bulk Import: Rules for Variations
 
 #. Items with variations:
 
-   #. the string for the product
+   #. the *string for the product*
+
+      #. should contain *Product name:en* and *Product name:ar_SA *
+      #. should NOT contain *variation name:en* and *variation name:ar_SA* and *Barcode*
+      #. is not imported
+   #. the *string for each variation of the product*
+
+      #. should **NOT** contain *Product name:en* and *Product name:ar_SA*
+      #. should contain *variation name:en* and *variation name:ar_SA* and *Barcode*
+      #. is imported
+
+
+Bulk Import: Rules for Empty Fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. If *Product image link* is empty, then item will be added without a picture
+#. If *Cost per unit*, *Price*, *Discount price* and *Tax* are empty – these fields will not be added
+#. The *Quantity* field
+
+   #. If a number is added, then a receipt transaction to the default warehouse will be created.
+   #. If not, the inventory Item will be created with an out of stock state.
+#. **A barcode is strongly requested!** If the merchant has no existing barcodes for his items to bulk import, then we suggest to autofill it in a Google Sheet (e.g. 000000000001, 000000000002).
+#. If the merchant already has an existing barcode in the database and tries to import any item with the same barcode, then the existing item will be replaced with the data from the Google Sheet – **BE CAREFUL!** So, the best way is to bulk import to a new/empty Store.
+
+
+Bulk Import: Rules for Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. If this field is left empty, the item will be left as uncategorized.
+#. If an item has a category and a subcategory, please use the forward slash [Category/Subcategory] OR [e.g. Mens/Shoes]
+#. If you wanna assign an item to a few categories, please type it with comma [Category 1, Category 2] OR [e.g. Desserts, Ice Cream]
+#. P.2 and P.3 are applicable to Product category:ar_SA, however, from a right-to-left orientation. [ترحيب / أساور] → In this case, ترحيب is the main category and أساور is the subcategory.
+#. If you type a new category name, then a new category will be created and the item will be assigned.
+
