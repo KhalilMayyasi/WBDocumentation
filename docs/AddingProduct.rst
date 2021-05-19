@@ -98,6 +98,7 @@ Adding inventory for the second variation is a bit different:
 
 .. image:: ./productToInventory4.png
   :width: 500
+  height: 800
   :alt: Alternative text
 
 Omnichannel Sourcing:-
