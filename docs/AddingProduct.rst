@@ -1,3 +1,6 @@
+.. role:: underlined(raw)
+   :format: html
+   :style: text-decoration: underline;
 
 Adding a Product
 ================================
@@ -131,3 +134,15 @@ Bulk Import Fields
 * **Discount price**
 * **Tax**
 * **Quantity**
+
+Bulk Import: Rules for Variations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Items without variations:
+
+   #. each string means one product will be imported
+   #. *variation name:en* and *variation name:ar_SA* should be empty
+
+#. Items with variations:
+
+   #. the :underlined:'string for the product'
