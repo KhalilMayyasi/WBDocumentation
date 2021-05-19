@@ -8,6 +8,7 @@ Merchants can add a product by:
 #. Clicking on the “Products” menu
 #. Clicking on “Add Product” next to the ‘Search & Filter Bar’
 #. Add the following information:
+
    * Product Name
    * Product Image
    * Price 
