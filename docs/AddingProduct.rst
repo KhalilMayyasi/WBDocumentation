@@ -145,4 +145,4 @@ Bulk Import: Rules for Variations
 
 #. Items with variations:
 
-   #. the :underlined:'string for the product'
+   #. the :underlined:`string for the product`
