@@ -13,17 +13,21 @@ Merchants can add a product by:
    * Product Image
    * Price 
    * Discount Price
+
       * Activated if “Sale” checkbox is selected
    * Assign to Product Category (Should have a Max) .. Remember to fix the should have a max
-   * Breadcrumbs Category 
+   * Breadcrumbs Category
+
       * Appears if product has more than one category 
       * A form of navigation on websites which tells end users how they reached their current page
       * The first category the product was added to is the default breadcrumb category
    * Product Description
    * Select Inventory Item
+
       * Each new product results in the product being added to the Inventory Library (Store Management > geideaPOS > Inventory Library) which creates a barcode for the new product as well
       * The use case might be different if the product has more than one variation (Check Creating Variations) .. Remember to link to creating variation section when available
    * Add product variation
+   
       * If one is not added, the first version is treated as the default category
 
 To assign quantity to a product, check Assigning Product to Inventory .. Remember to link to Assigning product to Inventory Section
