@@ -1,4 +1,4 @@
-Template
+README
 ========
 
 $project will solve your problem of where to start with documentation,
