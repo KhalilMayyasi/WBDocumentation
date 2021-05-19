@@ -27,7 +27,7 @@ Merchants can add a product by:
       * Each new product results in the product being added to the Inventory Library (Store Management > geideaPOS > Inventory Library) which creates a barcode for the new product as well
       * The use case might be different if the product has more than one variation (Check Creating Variations) .. Remember to link to creating variation section when available
    * Add product variation
-   
+
       * If one is not added, the first version is treated as the default category
 
 To assign quantity to a product, check Assigning Product to Inventory .. Remember to link to Assigning product to Inventory Section
@@ -57,6 +57,51 @@ Once a product (or variation of a product) has been created, a barcode is genera
    ‘Store Management > geideaPOS > Inventory Library’
 If no variation has been added, the product is seen as an image in the ‘Inventory Library’ as such:
 
+.. image:: ./productToInventory1.png
+  :width: 700
+  :alt: Alternative text
+
 .. image:: ./productToInventory2.png
   :width: 700
   :alt: Alternative text
+
+  If more than one variation exists, it is seen as above:
+
+.. image:: ./productToInventory1.png
+  :width: 700
+  :alt: Alternative text
+
+.. image:: ./productToInventory3.png
+  :width: 700
+  :alt: Alternative text
+
+Adding inventory (product quantity) for the first variation can be done by:
+
+#. Clicking on ‘New > Receipt’
+#. Adding the following information
+
+    * Warehouse (Check Use Case/functionality with team)
+    * Item
+    * Quantity
+    * Purchase Price (per item as per Eduard [check again])
+
+Adding inventory for the second variation is a bit different:
+
+#. Click on the second variation (In the above example, it would be “Long Sleeve Tee (small)”
+#. At the top right, click ‘New > Receipt’
+#. Add the following information
+
+    * Warehouse (Check Use Case/functionality with team)
+    * Item
+    * Quantity
+    * Purchase Price (per item as per Eduard [check again])
+
+.. image:: ./productToInventory4.png
+  :width: 500
+  :alt: Alternative text
+
+Omnichannel Sourcing:-
+
+   * Inventory Library (Online/Offline)
+
+
