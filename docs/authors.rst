@@ -1,1 +1,7 @@
-.. include:: ../AUTHORS.rst
+Authors
+-------
+
+* Khalil Mayyasi
+* Usman Ahsani
+
+
