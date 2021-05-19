@@ -25,7 +25,7 @@ Merchants can add a product by:
    * Select Inventory Item
 
       * Each new product results in the product being added to the Inventory Library (Store Management > geideaPOS > Inventory Library) which creates a barcode for the new product as well
-      * The use case might be different if the product has more than one variation (Check Creating Variations) .. Remember to link to creating variation section when available
+      * The use case might be different if the product has more than one variation (Check :ref:`Creating Variations`)
    * Add product variation
 
       * If one is not added, the first version is treated as the default category
