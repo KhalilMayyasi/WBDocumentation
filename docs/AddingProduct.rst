@@ -65,7 +65,7 @@ If no variation has been added, the product is seen as an image in the ‘Invent
   :width: 700
   :alt: Alternative text
 
-  If more than one variation exists, it is seen as above:
+If more than one variation exists, it is seen as above:
 
 .. image:: ./productToInventory1.png
   :width: 700
