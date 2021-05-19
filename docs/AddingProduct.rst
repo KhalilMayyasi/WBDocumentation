@@ -1,6 +1,3 @@
-.. role:: underlined(raw)
-   :format: html
-   :style: text-decoration: underline;
 
 Adding a Product
 ================================
@@ -112,6 +109,7 @@ Bulk Import & Rules (English and Arabic)
 -------------------------------------------------
 
 Merchants can also add products via bulk import by accessing:
+
    Settings > Integrations & Data Sharing > Data Import > Google Spreadsheet
 
 You can import items without variations, items with variations or both of them at the same time.
@@ -145,4 +143,4 @@ Bulk Import: Rules for Variations
 
 #. Items with variations:
 
-   #. the :underlined:`string for the product`
+   #. the string for the product
