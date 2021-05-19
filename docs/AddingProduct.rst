@@ -53,8 +53,10 @@ Merchants can add variations by:
 
 Assign Product to Inventory Item and Managing Quantity
 ------------------------------------------------------------------
-Once a product (or variation of a product) has been created, a barcode is generated and the product is linked to the inventory. This product can be accessed from:
+Once a product (or variation of a product) has been created, a barcode is generated and the product is linked to the inventory. This product can be accessed from::
+
    ‘Store Management > geideaPOS > Inventory Library’
+
 If no variation has been added, the product is seen as an image in the ‘Inventory Library’ as such:
 
 .. image:: ./productToInventory1.png
@@ -108,7 +110,7 @@ Omnichannel Sourcing:-
 Bulk Import & Rules (English and Arabic)
 -------------------------------------------------
 
-Merchants can also add products via bulk import by accessing:
+Merchants can also add products via bulk import by accessing::
 
    Settings > Integrations & Data Sharing > Data Import > Google Spreadsheet
 
