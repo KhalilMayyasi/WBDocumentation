@@ -30,7 +30,7 @@ Merchants can add a product by:
 
       * If one is not added, the first version is treated as the default category
 
-To assign quantity to a product, check Assigning Product to Inventory .. Remember to link to Assigning product to Inventory Section
+To assign quantity to a product, check :ref:`Assigning Product to Inventory`
 
 
 Creating Variations
