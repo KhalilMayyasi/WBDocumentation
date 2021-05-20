@@ -25,6 +25,6 @@ Merchants can add a payment method by accessing:
    * Add the cashier/cashiers that can use the payment method
 
 .. image:: ./PaymentAndDelivery1.png
-   :width: 500
+   :width: 600
    :alt: Alternative text
 
