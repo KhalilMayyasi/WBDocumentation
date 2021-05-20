@@ -21,3 +21,14 @@ Geidea WB manages orders through the creation of workflows. These allow orders t
    #. Delivery Status
 
 #. *Action* (what WB should do):
+
+   #. Reserve a product and start delivery
+   #. Reserve product
+   #. Remove from reserve
+   #. Change order status
+   #. Send notification
+
+      #. If this option is selected, another field for ‘Template’
+      #. Templates can be managed from::
+
+         ‘Store Management > Settings > E-Mail and SMS Notifications’
