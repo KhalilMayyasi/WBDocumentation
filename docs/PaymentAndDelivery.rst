@@ -84,4 +84,4 @@ Adding a Delivery Method - Aramex Integration
 * *Account Number* - requested from Aramex
 * *Account PIN* - requested from Aramex
 * *Account Entity* - 3 letter code provided by Aramex
-* *Account Country Code* - Two Letter Code Identifying the Country (`Check API Manual<https://www.aramex.com/docs/default-source/resourses/resourcesdata/shipping-services-api-manual.pdf>`_)
+* *Account Country Code* - Two Letter Code Identifying the Country (`Check API Manual <https://www.aramex.com/docs/default-source/resourses/resourcesdata/shipping-services-api-manual.pdf>`_)
