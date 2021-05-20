@@ -2,7 +2,7 @@
 Adding a Product
 ================================
 
-Merchants can add a product by:
+:blue:`Merchants` can add a product by:
 
 #. Accessing the “Store Management” menu
 #. Clicking on the “Products” menu
