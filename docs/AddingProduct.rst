@@ -58,17 +58,6 @@ Once a product (or variation of a product) has been created, a barcode is genera
 
    ‘Store Management > geideaPOS > Inventory Library’
 
-If no variation has been added, the product is seen as an image in the ‘Inventory Library’ as such:
-
-.. image:: ./productToInventory1.png
-  :width: 700
-  :alt: Alternative text
-
-.. image:: ./productToInventory2.png
-  :width: 700
-  :alt: Alternative text
-
-If more than one variation exists, it is seen as above:
 
 .. image:: ./productToInventory1.png
   :width: 700
@@ -83,10 +72,10 @@ Adding inventory (product quantity) for the first variation can be done by:
 #. Clicking on ‘New > Receipt’
 #. Adding the following information
 
-    * Warehouse (Check Use Case/functionality with team)
+    * Warehouse
     * Item
     * Quantity
-    * Purchase Price (per item as per Eduard [check again])
+    * Purchase Price
 
 Adding inventory for the second variation is a bit different:
 
