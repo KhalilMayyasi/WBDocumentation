@@ -9,12 +9,12 @@ Merchants can add a product by:
 #. Clicking on “Add Product” next to the ‘Search & Filter Bar’
 #. Add the following information:
 
-   * Product Name
-   * Product Image
-   * Price 
-   * Discount Price
+   - Product Name
+   - Product Image
+   - Price 
+   - Discount Price
 
-      - Activated if “Sale” checkbox is selected
+      + Activated if “Sale” checkbox is selected
    * Assign to Product Category (Should have a Max) .. Remember to fix the should have a max
    * Breadcrumbs Category
 
