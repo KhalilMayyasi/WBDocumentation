@@ -11,15 +11,15 @@ Main Menu(s)
 
 #. **Store Management** → the store management button shows a preview of the online store, along with the following tabs on the main menu:
 
-   #. *Online Store:* selecting store management opens this tab first, giving a preview of the online store.
-   #. *Site Admin:* the merchant can access his/her information from here on Admin Profile, access his/her stores, and manage subscriptions. 
-   #. *Home:* allows merchants to navigate across the most important, but not limited to, pages of the website builder.
-   #. *Products:* allows merchants to add categories, products, and view, search, and filter through existing products using filter criteria. 
-   #. *Orders:* allows merchants to view existing orders, create new orders, and filter through all orders using filter criteria. 
-   #. *Customers:* merchants can view information about subscribed customers, such as the last time they bought a product, or how much they have spent, etc. 
-   #. *Management:* allows merchants to manage, edit, and add/delete various on-site elements. These on-site elements include easy-to-use fields for merchants to input, while other technical settings may require the help of a web developer.	
-   #. *Settings:* allows merchants to manage, edit and add/delete various on-site and off-site elements, such as role management, invoice details, tax rates, etc.
-   #. *geideaPOS:* merchants that would like online-store and brick-and-mortar geidea portals will have access to geideaPOS to provide merchants with an omnichannel experience. 
+   #. **Online Store:** selecting store management opens this tab first, giving a preview of the online store.
+   #. **Site Admin:** the merchant can access his/her information from here on Admin Profile, access his/her stores, and manage subscriptions. 
+   #. **Home:** allows merchants to navigate across the most important, but not limited to, pages of the website builder.
+   #. **Products:** allows merchants to add categories, products, and view, search, and filter through existing products using filter criteria. 
+   #. **Orders:** allows merchants to view existing orders, create new orders, and filter through all orders using filter criteria. 
+   #. **Customers:** merchants can view information about subscribed customers, such as the last time they bought a product, or how much they have spent, etc. 
+   #. **Management:** allows merchants to manage, edit, and add/delete various on-site elements. These on-site elements include easy-to-use fields for merchants to input, while other technical settings may require the help of a web developer.	
+   #. **Settings:** allows merchants to manage, edit and add/delete various on-site and off-site elements, such as role management, invoice details, tax rates, etc.
+   #. **geideaPOS:** merchants that would like online-store and brick-and-mortar geidea portals will have access to geideaPOS to provide merchants with an omnichannel experience. 
 
 #. **Design** → The design button leads merchants to the Interactive Design Widget. Merchants can edit the following items on the following pages:
 
