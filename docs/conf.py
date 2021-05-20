@@ -129,9 +129,7 @@ html_theme = 'default'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_css_files = [
-    'css/custom.css',
-]
+html_css_files = ['css/custom.css']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -260,6 +258,9 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+
+rst_epilog = "\n.. include:: .special.rst\n"
 
 rst_prolog = """
  .. include:: <s5defs.txt>
