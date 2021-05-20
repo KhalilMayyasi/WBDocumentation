@@ -26,4 +26,4 @@ Main Menu(s)
 
 #. **Store Management** → the store management button shows a preview of the online store, along with the following tabs on the main menu:
 
-    #. ** *Online Store:* ** selecting store management opens this tab first, giving a preview of the online store.
+    #. ***Online Store:*** selecting store management opens this tab first, giving a preview of the online store.
