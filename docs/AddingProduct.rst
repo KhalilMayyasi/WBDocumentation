@@ -1,3 +1,4 @@
+.. role:: blue
 
 Adding a Product
 ================================
