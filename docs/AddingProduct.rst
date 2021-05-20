@@ -1,9 +1,8 @@
-.. role:: blue
 
 Adding a Product
 ================================
 
-:blue:`Merchants` can add a product by:
+Merchants can add a product by:
 
 #. Accessing the “Store Management” menu
 #. Clicking on the “Products” menu
