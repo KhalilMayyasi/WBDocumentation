@@ -83,18 +83,14 @@ Adding inventory for the second variation is a bit different:
 #. At the top right, click ‘New > Receipt’
 #. Add the following information
 
-    * Warehouse (Check Use Case/functionality with team)
+    * Warehouse
     * Item
     * Quantity
-    * Purchase Price (per item as per Eduard [check again])
+    * Purchase Price
 
 .. image:: ./productToInventory4.png
   :width: 500
   :alt: Alternative text
-
-Omnichannel Sourcing:-
-
-   * Inventory Library (Online/Offline)
 
 
 Bulk Import & Rules (English and Arabic)
