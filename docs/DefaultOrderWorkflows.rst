@@ -31,4 +31,4 @@ Geidea WB manages orders through the creation of workflows. These allow orders t
       #. If this option is selected, another field for ‘Template’
       #. Templates can be managed from::
 
-         ‘Store Management > Settings > E-Mail and SMS Notifications’
+   ‘Store Management > Settings > E-Mail and SMS Notifications’
