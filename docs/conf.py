@@ -262,7 +262,4 @@ texinfo_documents = [
 
 rst_epilog = "\n.. include:: .special.rst\n"
 
-rst_prolog = """
- .. include:: <s5defs.txt>
-
- """
+rst_prolog = ".. include:: <s5defs.txt>"
