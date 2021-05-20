@@ -33,7 +33,8 @@ Main Menu(s)
    * *Product Page*
 
       * The positioning of the product image relative to the “Add to Cart” button (Top or Side)
-      * Adding similar products below ::
+      * Adding similar products below
+
          (Can be adjusted from Products > Edit a Product > Additionally)
 
    * *General Settings*
