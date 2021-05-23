@@ -9,6 +9,7 @@ Website Builder Documentation
 Contents:
 
 .. toctree::
+   :caption: Table of Contents
    :maxdepth: 3
    
    authors
