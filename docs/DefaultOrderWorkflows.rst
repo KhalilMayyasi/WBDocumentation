@@ -43,10 +43,12 @@ Geidea WB manages orders through the creation of workflows. These allow orders t
      - Terms (conditions)
      - Action (what is done)
    * - Changing order status
-     - For orders with any delivery, payment and order status
+     - For orders with any delivery, 
+       payment and order status
      - Send notification
    * - Ordering
-     - For orders with any delivery, payment, and order status
+     - For orders with any delivery, 
+       payment, and order status
      - Reserve product
    * - Changing order status
      - Order Status is ‘Cancelled’
