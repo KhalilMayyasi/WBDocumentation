@@ -36,7 +36,7 @@ Geidea WB manages orders through the creation of workflows. These allow orders t
          ‘Store Management > Settings > E-Mail and SMS Notifications’
 
 .. list-table::
-   :widths: 15 20 15
+   :widths: 5 10 5
    :header-rows: 1
 
    * - Event (when)
