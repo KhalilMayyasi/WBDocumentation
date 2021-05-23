@@ -14,11 +14,11 @@ Merchants can add a payment method by accessing:
 * Clicking on “Add Payment Method” button
 * Adding the following information:
 
-   * Payment Name
-   * Payment System
+   * Payment name
+   * Payment system
 
       * Have to add Merchant ID provided by Geidea
-      * Have to add API Password provided by Geidea
+      * Have to add API password provided by Geidea
       * Selecting the payment type
 
    * Link payment to the suitable delivery method
@@ -39,21 +39,21 @@ Merchants can add a delivery method by accessing:
 * Adding the following information:
 
    * Name - how end users will see it
-   * Delivery Service - merchants can select from the following delivery services 
+   * Delivery service - merchants can select from the following delivery services 
 
       * Pickup
       * Aramex
       * Other (merchant’s courier)
-      * Only Digital Goods (for subscription/online goods)
+      * Only digital goods (for subscription/online goods)
 
    * Description
-   * Delivery Cost
+   * Delivery cost
 
       * Left blank if the shipping cost will be determined after the order
 
-   * Free Shipping (once order reaches this limit, shipping is free)
+   * Free shipping (once order reaches this limit, shipping is free)
    * City for delivery
-   * Permitted Payment Methods
+   * Permitted payment methods
    * Merchants can add an additional field for the order form
 
       * along with a hint for customers for the additional field
@@ -81,7 +81,7 @@ Adding a Delivery Method - Aramex Integration
 * *Username* - provided to user when registering with Aramex 
 * *Password* - provided to user when registering with Aramex
 * *Version* - Based on the API version the user is using to invoke the web service
-* *Account Number* - requested from Aramex
+* *Account number* - requested from Aramex
 * *Account PIN* - requested from Aramex
-* *Account Entity* - 3 letter code provided by Aramex
-* *Account Country Code* - Two Letter Code Identifying the Country (`Check API Manual <https://www.aramex.com/docs/default-source/resourses/resourcesdata/shipping-services-api-manual.pdf>`_)
+* *Account entity* - 3 letter code provided by Aramex
+* *Account country code* - Two letter code identifying the country (`Check API Manual <https://www.aramex.com/docs/default-source/resourses/resourcesdata/shipping-services-api-manual.pdf>`_)
