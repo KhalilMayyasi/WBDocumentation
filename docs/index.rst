@@ -12,6 +12,12 @@ Contents:
    :maxdepth: 3
    
    authors
+   Introduction
+   Components
+   AddCategory
+   AddingProduct
+   PaymentAndDelivery
+   DefaultOrderWorkflows
 
 
    *
