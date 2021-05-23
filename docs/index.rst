@@ -6,7 +6,6 @@
 Website Builder Documentation
 ================================================
 
-Contents:
 
 .. toctree::
    :caption: Table of Contents
