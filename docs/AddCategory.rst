@@ -9,10 +9,10 @@ Merchants can add a category by:
 #. Clicking on the “+” button next to the Categories heading
 #. Add the following information
 
-   * Category Name
-   * Category Description
-   * Category Image
-   * Parent Category
+   * Category name
+   * Category description
+   * Category image
+   * Parent category
 
       * If a parent category is not selected, the created category is a parent category
       * If a parent category is selected, then the category being created becomes the child (sub) category for the selected parent category
@@ -26,10 +26,10 @@ Merchants can add a category by:
 
       * Checking this box shows products from the same categories as related products in the product page
 
-   * SEO Settings
+   * SEO settings
 
-      * Title Tag
-      * Meta Description
-      * H1 Tag
-      * URL Path (Clear way)
+      * Title tag
+      * Meta description
+      * H1 tag
+      * URL path (Clear way)
       * Meta keywords
