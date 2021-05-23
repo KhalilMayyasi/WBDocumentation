@@ -34,3 +34,26 @@ Geidea WB manages orders through the creation of workflows. These allow orders t
       .. code-block:: text
       
          ‘Store Management > Settings > E-Mail and SMS Notifications’
+
+.. list-table::
+   :widths: 25 50 25
+   :header-rows: 1
+
+   * - Event (when)
+     - Terms (conditions)
+     - Action (what is done)
+   * - Changing order status
+     - For orders with any delivery, payment and order status
+     - Send notification
+   * - Ordering
+     - For orders with any delivery, payment, and order status
+     - Reserve product
+   * - Changing order status
+     - Order Status is ‘Cancelled’
+     - Remove from reserve
+   * - Changing order status
+     - Order status from ‘Active’ to ‘Failed’
+     - Remove from reserve
+   * - When payment fails
+     - Any
+     - Remove from reserve
