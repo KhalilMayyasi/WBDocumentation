@@ -2,23 +2,23 @@
 How to add a category
 =========================================
 
-Merchants can add a category by: 
+To add a category: 
 
-#. Accessing the “Store Management” menu
-#. Clicking on the “Products” menu
-#. Clicking on the “+” button next to the Categories heading
-#. Add the following information
+#. Access the “Store Management” menu
+#. Click on the “Products” menu 
+#. Click on the “+” button next to the *Categories* heading
+#. Add the following information:
 
    * Category name
    * Category description
    * Category image
    * Parent category
 
-      * If a parent category is not selected, the created category is a parent category
-      * If a parent category is selected, then the category being created becomes the child (sub) category for the selected parent category
+      * If a parent category is not selected, the newly created category is the  parent category
+      * If a parent category is selected, then the category being created becomes the child (sub) category within the selected parent category
       * A new parent category is created if a category that does not exist is inserted in this field
 
-   * Position in the List
+   * Position in the list
 
       * the order in which the customers can see the category
 
@@ -30,6 +30,6 @@ Merchants can add a category by:
 
       * Title tag
       * Meta description
-      * H1 tag
+      * Header tag
       * URL path (Clear way)
       * Meta keywords
