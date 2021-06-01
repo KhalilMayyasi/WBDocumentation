@@ -2,7 +2,7 @@
 Default Order Workflows
 ======================================
 
-Geidea WB manages orders through the creation of workflows. These allow orders to move through a funnel. These are determined by the following 3 criteria:
+Geidea Online Store Builder  manages orders through the creation of workflows, which allows orders to move through a funnel. These are determined by the following 3 criteria:
 
 #. *Events* (when a certain event takes place):
 
