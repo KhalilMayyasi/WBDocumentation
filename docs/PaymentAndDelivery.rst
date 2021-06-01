@@ -3,7 +3,7 @@ Payment and Delivery
 ======================================
 
 Payment and delivery methods need to be set up. 
- Every payment method *must* be linked to at least one delivery method.
+Every payment method *must* be linked to at least one delivery method.
 
 Adding a Payment Method using Geidea Payment system
 ------------------------------------------------------------
