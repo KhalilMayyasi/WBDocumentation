@@ -2,20 +2,22 @@
 Payment and Delivery
 ======================================
 
-Payment and delivery methods need to be set up, since merchants will not be able to sell products online if either one of these factors is missing.Every payment method must be linked to at least one delivery method.
+Payment and delivery methods need to be set up. 
+Every payment method *must* be linked to at least one delivery method.
 
 Adding a Payment Method using Geidea Payment system
 ------------------------------------------------------------
 
+Geidea offers simple and easy to use payment acceptance solutions and geidea payment gateway is offered as the payment acceptance solution to integrate with online store builder.
 Every payment method must be linked to at least one delivery method.
-Merchants can add a payment method by accessing: 
+To add a payment method:
 
-* Store Management > Settings > Customer Payment Methods
-* Clicking on “Add Payment Method” button
-* Adding the following information:
+* Access ‘Store Management > Settings > Customer Payment Methods’
+* Click on “Add Payment Method” button
+* Add the following information:
 
-   * Payment name
-   * Payment system
+   * Payment name (how end users will see it)
+   * Payment system (in our case, should be ‘Geidea Payment’ gateway)
 
       * Have to add Merchant ID provided by Geidea
       * Have to add API password provided by Geidea
@@ -32,11 +34,11 @@ Merchants can add a payment method by accessing:
 Adding a Delivery Method
 -------------------------------------------------
 
-Merchants can add a delivery method by accessing:
+To add a delivery method:
 
-* Store Management > Settings > Delivery Methods
-* Clicking on ‘Add Delivery Method’
-* Adding the following information:
+* Access ‘Store Management > Settings > Delivery Methods’
+* Click on ‘Add Delivery Method’
+* Add the following information:
 
    * Name - how end users will see it
    * Delivery service - merchants can select from the following delivery services 
@@ -51,10 +53,10 @@ Merchants can add a delivery method by accessing:
 
       * Left blank if the shipping cost will be determined after the order
 
-   * Free shipping (once order reaches this limit, shipping is free)
+   * Free shipping (once order reaches a certain limit, shipping can be set as free)
    * City for delivery
    * Permitted payment methods
-   * Merchants can add an additional field for the order form
+   * Add an additional field for the order form,
 
       * along with a hint for customers for the additional field
 
@@ -70,8 +72,8 @@ Once a delivery method has been added, time slots for the new method can be adju
 * Access ‘Settings > Delivery Method’
 * Click “Change” on the delivery method to adjust the time slots for the selected method
 * Access “Set a specific time” to edit the courier service time
-* Merchants are shown a calendar for which time windows can be selected for given dates
-* Merchants can also create custom rules for multiple dates using the “Rules for time slots” section
+* A calendar will show time slots to be selected for given dates
+* Custom rules can be created for multiple dates using the “Rules for time slots” section
 
 Adding a Delivery Method - Aramex Integration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
