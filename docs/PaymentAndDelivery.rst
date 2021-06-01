@@ -2,14 +2,17 @@
 Payment and Delivery
 ======================================
 
-Payment and delivery methods need to be set up. 
+Payment and delivery methods need to be set up.
+
 Every payment method *must* be linked to at least one delivery method.
 
 Adding a Payment Method using Geidea Payment system
 ------------------------------------------------------------
 
 Geidea offers simple and easy to use payment acceptance solutions and geidea payment gateway is offered as the payment acceptance solution to integrate with online store builder.
+
 Every payment method must be linked to at least one delivery method.
+
 To add a payment method:
 
 * Access ‘Store Management > Settings > Customer Payment Methods’
