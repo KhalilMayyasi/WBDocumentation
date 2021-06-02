@@ -51,50 +51,50 @@ To add variations:
    * Price of variation
    * Discount price of variation
 
-
-Assign Product to Inventory Item and Managing Quantity
-------------------------------------------------------------------
-Once a product (or variation of a product) has been created, a barcode is generated and the product is linked to the inventory. This product can be accessed from:
-
-.. code-block:: text
-
-   ‘Store Management > geideaPOS > Inventory Library’
-
-
-.. image:: ./productToInventory1.png
-  :width: 700
-  :alt: Alternative text
-
-.. image:: ./productToInventory3.png
-  :width: 700
-  :alt: Alternative text
-
-To add inventory (product quantity) for the first variation:
-
-#. Click on ‘New > Receipt’
-#. Add the following information:
-
-    * Warehouse
-    * Item
-    * Quantity
-    * Cost per unit
-
-To add inventory for the second variation is a bit different:
-
-#. Click on the second variation (In the above example, it would be “Long Sleeve Tee (small)”
-#. At the top right, click ‘New > Receipt’
-#. Add the following information:
-
-    * Warehouse
-    * Item
-    * Quantity
-    * Cost per unit
-
-.. image:: ./productToInventory4.png
-  :width: 500
-  :alt: Alternative text
-
 ..
+   Assign Product to Inventory Item and Managing Quantity
+   ------------------------------------------------------------------
+   Once a product (or variation of a product) has been created, a barcode is generated and the product is linked to the inventory. This product can be accessed from:
+
+   .. code-block:: text
+
+      ‘Store Management > geideaPOS > Inventory Library’
+
+
+   .. image:: ./productToInventory1.png
+   :width: 700
+   :alt: Alternative text
+
+   .. image:: ./productToInventory3.png
+   :width: 700
+   :alt: Alternative text
+
+   To add inventory (product quantity) for the first variation:
+
+   #. Click on ‘New > Receipt’
+   #. Add the following information:
+
+      * Warehouse
+      * Item
+      * Quantity
+      * Cost per unit
+
+   To add inventory for the second variation is a bit different:
+
+   #. Click on the second variation (In the above example, it would be “Long Sleeve Tee (small)”
+   #. At the top right, click ‘New > Receipt’
+   #. Add the following information:
+
+      * Warehouse
+      * Item
+      * Quantity
+      * Cost per unit
+
+   .. image:: ./productToInventory4.png
+   :width: 500
+   :alt: Alternative text
+
+
    Bulk Import & Rules (English and Arabic)
    -------------------------------------------------
 
