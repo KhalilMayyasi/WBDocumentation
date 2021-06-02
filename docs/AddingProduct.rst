@@ -37,17 +37,28 @@ To assign quantity to a product, check :ref:`Assign Product to Inventory Item an
 Creating Variations
 -------------------------------
 
-Use variations to provide end users with different options for certain products (e.g. Size, Color, etc.)
-To add variations:
+Use variations to provide end users with different options for certain products (e.g. Size, Color, etc.).
 
-#. Add a new product OR click on an existing product’s image
+To add variations for a product named ‘Long Tee’ and the variations are based on size:
+
+#. Add a new product OR click on an existing product’s image (i.e. Long Tee)
 #. Click on “Add Option” under “Product Variations”
 #. Add the following information:
-   * Variation name (e.g. ‘Medium’ if it’s for a shirt ‘Long Tee’)
+   * Variation Name:
+
+      * In this example, the variation names would be ‘Small’ and ‘Medium’
+
    * The inventory item the variation links to:
-      * The first variation has a default link to the current product
+      * The first variation has a default link to the current product (i.e. Long Tee)
+
+         * Name the variation (e.g. Small)
+      
       * The second variation links to a ‘New’ product in the inventory
-      * This creates a new inventory item under the same product as “Product name (Variation name)’ so for a shirt named ‘Long Tee’, the new variation would be “Long Tee (Medium)” 
+
+         * Name the variation (e.g. Medium)
+      
+      * This creates a new inventory item under the same product as “Product Name (Variation Name)’ so for a shirt named ‘Long Tee’, the new variations would be “Long Tee (Small) and “Long Tee (Medium)”
+   
    * Price of variation
    * Discount price of variation
 
