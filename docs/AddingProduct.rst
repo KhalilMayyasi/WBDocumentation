@@ -49,6 +49,7 @@ To add variations for a product named ‘Long Tee’ and the variations are base
       * In this example, the variation names would be ‘Small’ and ‘Medium’
 
    * The inventory item the variation links to:
+      
       * The first variation has a default link to the current product (i.e. Long Tee)
 
          * Name the variation (e.g. Small)
