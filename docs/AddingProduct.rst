@@ -64,7 +64,7 @@ To add variations for a product named ‘Long Tee’ and the variations are base
    * Price of variation
    * Discount price of variation
 
-..
+
    Assign Product to Inventory Item and Managing Quantity
    ------------------------------------------------------------------
    Once a product (or variation of a product) has been created, a barcode is generated and the product is linked to the inventory. This product can be accessed from:
@@ -107,7 +107,7 @@ To add variations for a product named ‘Long Tee’ and the variations are base
    :width: 500
    :alt: Alternative text
 
-
+..
    Bulk Import & Rules (English and Arabic)
    -------------------------------------------------
 
