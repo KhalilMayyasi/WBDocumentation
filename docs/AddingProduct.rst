@@ -157,7 +157,7 @@ Bulk Import: Rules for Variations
 
 
       #. is imported
-      #. should NOT contain *Product name:en*, *Product description; en*, *Product image link*, *Product category*, *Product description:en* and *Product name:ar_SA*
+      #. should **NOT** contain *Product name:en*, *Product description; en*, *Product image link*, *Product category*, *Product description:en* and *Product name:ar_SA*
       #. should contain
 
 
