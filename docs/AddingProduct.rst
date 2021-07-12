@@ -127,16 +127,21 @@ Bulk Import: Rules for Variations
 
 #. **Items without variations:**
 
+
    * each string means one product will be imported
    * *variation name:en* and *variation name:ar_SA* should be empty
 
+
 #. **Items with variations:**
 
+
    #. the string for the product (e.g T-Shirt)
+
 
       #. is not imported
       #. should contain *Product name:en*, *Product description; en*, *Product image link*, *Product category*, *Product description:en* and *Product name:ar_SA*
       #. should **NOT** contain:
+
 
          #. Variation name:en 
          #. Variation name:ar_SA
@@ -147,11 +152,14 @@ Bulk Import: Rules for Variations
          #. Tax 
          #. Barcode
 
+
    #. the string for each variation of the product (e.g. Small, Medium, Large)
+
 
       #. is imported
       #. should NOT contain *Product name:en*, *Product description; en*, *Product image link*, *Product category*, *Product description:en* and *Product name:ar_SA*
       #. should contain
+
 
          #. Variation name:en 
          #. Variation name:ar_SA
@@ -166,3 +174,29 @@ Use the following as examples:
 
    * (`English Bulk Import Sample Sheet <https://docs.google.com/spreadsheets/d/1eTcs-3bGBH-0psDC5eZsnlt_ln6ykYVXPPc5740UAzc/edit?usp=sharing>`_)
    * (`Arabic Bulk Import Sample Sheet <https://docs.google.com/spreadsheets/d/1Cgk48UjQOMp_P0RcDl8TLIhSj9Hqh2XAScrzrdbSoV4/edit?usp=sharing>`_)
+
+Bulk Import: Rules for Empty Fields and Barcodes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. If Product image link is empty, the item will be added without an image
+#. If Cost per unit, Price, Discount price and Tax are empty – these fields will not be added
+#. The Quantity field
+
+
+   #. If a number is added, then a receipt transaction to the default warehouse will be created.
+   #. If not, the inventory item will be created with an out of stock state.
+
+
+#. A barcode is strongly requested! If there are  no existing barcodes for items to bulk import, then we suggest autofill in a Google Sheet (e.g. 000000000001, 000000000002).
+#. If there is already an existing barcode in the online database and the user tries to import an item with the same barcode, then the existing item will be replaced with the data from the Google Sheet. **The best way is to bulk import to a new or empty store**, then adding products one at a time.
+
+Bulk Import: Rules for Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. If this field is left empty, the item will be left as uncategorized.
+#. If you type a new category name, then a new category will be created and the item will be assigned.
+#. If an item has a category and a subcategory, please use the forward slash [Category/Subcategory] OR [e.g. Mens/Shoes]
+#. If you want to  assign an item to more than one category, please type it with a comma:
+[Category 1, Category 2] OR [e.g. Mens/Shoes, Fall Collection]
+#. Point 2 and 3 apply to the Product category:ar_SA in a right-to-left orientation.
+[ترحيب / أساور] → In this case, ترحيب is the main category and أساور is the subcategory.
