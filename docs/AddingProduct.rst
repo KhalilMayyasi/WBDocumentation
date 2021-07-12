@@ -196,7 +196,5 @@ Bulk Import: Rules for Categories
 #. If this field is left empty, the item will be left as uncategorized.
 #. If you type a new category name, then a new category will be created and the item will be assigned.
 #. If an item has a category and a subcategory, please use the forward slash [Category/Subcategory] OR [e.g. Mens/Shoes]
-#. If you want to  assign an item to more than one category, please type it with a comma:
-[Category 1, Category 2] OR [e.g. Mens/Shoes, Fall Collection]
-#. Point 2 and 3 apply to the Product category:ar_SA in a right-to-left orientation.
-[ترحيب / أساور] → In this case, ترحيب is the main category and أساور is the subcategory.
+#. If you want to  assign an item to more than one category, please type it with a comma: [Category 1, Category 2] OR [e.g. Mens/Shoes, Fall Collection]
+#. Point 2 and 3 apply to the Product category:ar_SA in a right-to-left orientation. [ترحيب / أساور] → In this case, ترحيب is the main category and أساور is the subcategory.
