@@ -122,6 +122,15 @@ To add products via bulk import, add the Google Spreadsheet in the correct forma
 A sample sheet can be found here as well.
 Import items without variations, items with variations or both of them at the same time.
 
+Bulk Import: Rules for Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. If this field is left empty, the item will be left as uncategorized.
+#. If you type a new category name, then a new category will be created and the item will be assigned.
+#. If an item has a category and a subcategory, please use the forward slash [Category/Subcategory] OR [e.g. Mens/Shoes]
+#. If you want to  assign an item to more than one category, please type it with a comma: [Category 1, Category 2] OR [e.g. Mens/Shoes, Fall Collection]
+#. Point 2 and 3 apply to the Product category:ar_SA in a right-to-left orientation. [ترحيب / أساور] → In this case, ترحيب is the main category and أساور is the subcategory.
+
 Bulk Import: Rules for Variations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -189,12 +198,3 @@ Bulk Import: Rules for Empty Fields and Barcodes
 
 #. A barcode is strongly requested! If there are  no existing barcodes for items to bulk import, then we suggest autofill in a Google Sheet (e.g. 000000000001, 000000000002).
 #. If there is already an existing barcode in the online database and the user tries to import an item with the same barcode, then the existing item will be replaced with the data from the Google Sheet. **The best way is to bulk import to a new or empty store**, then adding products one at a time.
-
-Bulk Import: Rules for Categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. If this field is left empty, the item will be left as uncategorized.
-#. If you type a new category name, then a new category will be created and the item will be assigned.
-#. If an item has a category and a subcategory, please use the forward slash [Category/Subcategory] OR [e.g. Mens/Shoes]
-#. If you want to  assign an item to more than one category, please type it with a comma: [Category 1, Category 2] OR [e.g. Mens/Shoes, Fall Collection]
-#. Point 2 and 3 apply to the Product category:ar_SA in a right-to-left orientation. [ترحيب / أساور] → In this case, ترحيب is the main category and أساور is the subcategory.
